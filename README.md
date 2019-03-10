@@ -8,11 +8,17 @@ python3 (Tested only with Anaconda Python 3.7)
 It should run on linux, but it is only tested for windows.
 
 **Usage**
+
 *Arguments*
+
 -i | --image      | Set the input image (If it ends in .json, it will use a set of images, see below for more information)
+
 -o | --out        | The name as which to save the VMF file
+
 -s | --pixelsize  | The amount of Hammer Units (1 unit = 1 inch I think) that fit the length of a pixel
+
 -t | --thickness  | The thickness of the brushes that make up the ground
+
 -m | --material   | The material to use on the blocks upon creation (Default 'tools/toolsnodraw')
 
 *Example*
