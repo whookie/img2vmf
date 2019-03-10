@@ -3,9 +3,9 @@ This script allows you to generate a Source Engine Valve Map File (VMF) from a 2
 
 **Dependencies**
 
-- vmflib `pip install vmflib` or on github: https://github.com/BHSPitMonkey/vmflib
-- python3 (Tested only with Anaconda Python 3.7)
-- It should run on linux, but it is only tested for windows.
+- **vmflib** `pip install vmflib` or on github: https://github.com/BHSPitMonkey/vmflib
+- **python3** (Tested only with Anaconda Python 3.7)
+- It should run on linux, but it is only tested for **windows**.
 
 **Usage**
 
