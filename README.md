@@ -42,9 +42,10 @@ You can add an infinite amount of images (just note that it will take longer wit
 The Format is generally `"imagename.jpg": height` where height is the offset from the 0-plane
 
 **Note**
-As I could not find an algorithm to slice an image into boxes I thought of a custom one.
+
+- As I could not find an algorithm to slice an image into boxes I thought of a custom one.
 If you know of a good algorithm to slice an image into a series of boxes, please tell me!
 
-The one I came up with is most likely very slow and inefficient, so try to avoid using images larger than HD.
+- The one I came up with is most likely very slow and inefficient, so try to avoid using images larger than HD.
 
-Do not use this on existing maps, as it will overwrite your map, and not add into it!
+- Do not use this on existing maps, as it will overwrite your map, and not add into it!
