@@ -38,11 +38,7 @@ OUTFILE = argv["out"]
 PXSIZE = argv["pixelsize"]
 BRUSHWIDTH = argv["thickness"]
 
-TEXTURE = "tools/toolsnodraw"
-try:
-    TEXTURE = argv["material"]
-except KeyError:
-    pass
+TEXTURE = "tools/toolsnodraw" if argv["material"] == None else argv["material"]
 
 def Units(px):
     return PXSIZE * px
