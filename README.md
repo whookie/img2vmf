@@ -9,7 +9,7 @@ This script allows you to generate a Source Engine Valve Map File (VMF) from a 2
 
 **Usage**
 
-*Arguments*
+[*Arguments*]
 
 ```
 -i | --image      | Set the input image (If it ends in .json, it will use a set of images, see below for more information)
@@ -19,7 +19,7 @@ This script allows you to generate a Source Engine Valve Map File (VMF) from a 2
 -m | --material   | The material to use on the blocks upon creation (Default 'tools/toolsnodraw')
 ```
 
-*Example*
+[*Example*]
 Using a single image:
 `python img2vmt.py --image layout.jpg --out mynewmap.vmf -s 2 -t 16`
 - Translates the image `layout.jpg` to a VMF file, where 2 units equal 1 pixel, and a brush height of 16 units.
@@ -27,7 +27,8 @@ Using a single image:
 `python img2vmt.py --image house.json --out mynewmap.vmf -s 2 -t 16`
 - Works like the example above, but it translates multiple images on different heights.
 
-*How the JSON works*
+[*How the JSON works*]
+
 It's very simple:
 ```
 {
