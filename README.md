@@ -41,6 +41,13 @@ You can add an infinite amount of images (just note that it will take longer wit
 
 The Format is generally `"imagename.jpg": height` where height is the offset from the 0-plane
 
+**Creating the images**
+
+It is recommended to work as box-like as possible *(insert "thinking out of the box" joke here)*.
+The algorithm will detect any rounded areas as a series of lines, so try to avoid using and rounded or fuzzy corners.
+
+It is important that the images are drawn in black and white (so in #000000 and #FFFFFF) as I do not convert them to a binary image yet. It may come soon.
+
 **Note**
 
 - As I could not find an algorithm to slice an image into boxes I thought of a custom one.
