@@ -60,4 +60,4 @@ If you know of a good algorithm to slice an image into a series of boxes, please
 **Known Issues**
 
 - Currently the brushes are created mirrored from the image, but thats fixable
-  - Select everything in Hammer, Press `Crtl + M`, Select Scale, Type `-1` in the `x` field, Confirm
+  - Select everything in Hammer, Press `Crtl + M`, Select Scale, Type `-1` in the `y` field, Confirm
