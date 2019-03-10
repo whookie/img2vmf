@@ -56,3 +56,8 @@ If you know of a good algorithm to slice an image into a series of boxes, please
 - The one I came up with is most likely very slow and inefficient, so try to avoid using images larger than HD.
 
 - Do not use this on existing maps, as it will overwrite your map, and not add into it!
+
+**Known Issues**
+
+- Currently the brushes are created mirrored from the image, but thats fixable
+  - Select everything in Hammer, Press `Crtl + M`, Select Scale, Type `-1` in the `x` field, Confirm
