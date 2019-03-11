@@ -1,5 +1,5 @@
 # img2vmf
-This script allows you to generate a Source Engine Valve Map File (VMF) from a 2D Image.
+This script allows you to generate a Source Engine Valve Map Format File (VMF) from a 2D Image.
 
 **Dependencies**
 
